@@ -1,0 +1,198 @@
+• Digital systems use physical quantities called signals to represent discrete elements.
+• A signal in digital system represents one binary digit called a bit.
+
+Analog systems vs Digital systems Analog system process information that varies continuously i.e; they process time varying signals that can take on any values across a continuous range of voltage, current or any physical parameter.
+
+Ease of programmability The digital systems can be used for different applications by simply changing the program without additional changes in hardware.
+
+With ICs the number of components that can be placed in a given area of Silicon are increased which helps in cost reduction.
+
+High Reliability Digital systems are highly reliable one of the reasons for that is use of error correction codes.
+
+Disadvantages of Digital Systems • Use more energy than analog circuits to accomplish the same tasks, thus producing more heat as well.
+
+• Digital computer manipulates discrete elements of information by means of a binary code.
+
+Modern computers communicate and operate with binary numbers which use only the digits 0 &1.
+
+So this fact gave rise to three new number systems.
+
+Octal Number System Digital systems operate only on binary numbers.
+
+The decimal digits 0 to 9 are used as the first ten digits as in the decimal system, followed by the letters A, B, C, D, E and F, which represent the values 10, 11,12,13,14 and 15 respectively.
+
+Decima l Binar y Octal Hexadeci mal 0 0000 0 0 1 0001 1 1 2 0010 2 2 3 0011 3 3 4 0100 4 4 5 0101 5 5 6 0110 6 6 7 0111 7 7 8 1000 10 8 9 1001 11 9
+
+Therefore it is necessary to convert decimal number system into its equivalent binary.
+
+Ex: 0 1 0 1 0 0 1 ↓ Sign bit =+41 magnitude ↑ 1 1 0 1 0 0 1 = -41 Note: manipulation is necessary to add a +ve no to a –ve no Representation of signed no.s using 2’s or 1’s complement method: If the no.
+
+is +ve, the magnitude is rep in its true binary form & a sign bit 0 is placed in front of the MSB.I f the no is _ve , the magnitude is rep in its 2‘s or 1‘s compliment form &a sign bit 1 is placed in front of the MSB.
+
+One of the difficulties of using 1‘s comp is its rep o f zero.
+
+The disadvantage of the BCD code is that , arithmetic operations are more complex than they are in pure binary .
+
+There are 6 illegal combinations 1010,1011,1100,1101,1110,1111 in these codes, they are not part of the 8421 BCD code system .
+
+The disadvantage of 8421 code is, the rules of binary addition 8421 no, but only to the individual 4 bit groups.
+
+BCD Addition: It is individually adding the corresponding digits of the decimal no,s expressed in 4 bit binary groups starting from the LSD .
+
+Excess-3 Addition: Add the xs-3 no.s by adding the 4 bit groups in each column starting from the LSD.
+
+0110 1011 is illegal code +0110 add 0110 DIGITAL LOGIC DESIGN Page no.
+
++28 +0101 1011 _ _ _ _ _ _ _ _ _ _ 65 1011 (1)0101 carry generated +1 propagate carry _ _ _ _ _ _ 1100 0101 add 0011 to correct 0101 & -0011 +0011 subtract 0011 to correct 1100 _ _ _ _ _ _ _ _ 1001 1000 =6510 Excess -3 (XS-3) Subtraction: Subtract the xs-3 no.s by subtracting each 4 bit group of the subtrahend from the corresponding 4 bit group of the minuend starting form the LSD .if there is no borrow from the next 4-bit group add 0011 to the difference term of such groups (because when decimal digits are subtracted in xs-3 & there is no borrow , result is normal binary).
+
+I f there is a borrow , subtract 0011 from the differenceterm(b coz taking a borrow is equivalent to adding six invalid states , result is in xs-6) Ex: 267-175 267 = 0101 1001 1010 -175= -0100 1010 1000 _ _ _ _ _ _ _ _ 0000 1111 0010 +0011 -0011 +0011 0011 1100 +0011 =9210 DIGITAL LOGIC DESIGN Page no.
+
+19 Xs-3 subtraction using 9’s & 10’s compliment methods: Subtraction is performed by the 9‘s compliment or 10‘s compliment Ex:687-348 The subtrahend (348) xs -3 code & its compliment are: 9‘s comp of 348 = 651 Xs-3 code of 348 = 0110 0111 1011 1‘s comp of 348 in xs-3 = 1001 1000 0100 Xs=3 code of 348 in xs=3 = 1001 1000 0100 687 687 -348 → +651 9‘s compl of 348 339 (1)338 +1 end around carry _ 339 corrected difference in decimal _ _ _ _ _ _ _ _ _ _ _ (1)0010 (1)0011 1110 carry generated ⁄⁄ +1 +1 propagate carry _ _ _ _ _ _ _ _ _ _ _ _ _ _ _- (1)0011 0010 1110 +1 end around carry _ _ _ _ _ _ _ _ _ _ _ _ _ _ 0011 0011 1111 (correct 1111 by sub0011 and +0011 _ _ _ +0011 _ _ _ _ _ _ +0011 correct both groups of 0011 by _ _ _ adding 0011) 0110 0110 1100 corrected diff in xs-3 = 33010 1001 1011 1010 687 in xs-3 +1001 1000 0100 1‘s comp 348 in xs-3 DIGITAL LOGIC DESIGN Page no.
+
+The 1‘s may get changed to 0‘s & 1‘s .because digital systems must be accurate to the digit, error can pose a problem.
+
+Several schemes have been devised to detect the occurrence of a single bit error in a binary word, so that whenever such an error occurs the concerned binary word can be corrected & retransmitted.
+
+If there is an error, the receiving location can ask for retransmission of the entire data, used in teleprocessing systems.
+
+of 1‘s in each column & row including the data bits & parity bit is odd as DIGITAL LOGIC DESIGN Page no.
+
+Then by complementing the erroneous digit, the message can be corrected , error correcting , code is the Hamming code , In this , to each group of m information or message or data bits, K parity checking bits denoted by P1,P2,----------pk located at positions 2 k-1 from left are added to form an (m+k) bit code word.
+
+The k bit error word is generated by putting a 0 or a 1 in the 2 k-1 th position depending upon whether the check for parity involving the parity bit Pk is satisfied or not.Error positions & their corresponding values : data 10110 10001 10101 00010 11000 00000 11010 Data Parity bit 10110 0 10001 1 10101 0 00010 0 11000 1 00000 1 11010 0 DIGITAL LOGIC DESIGN Page no.
+
+A universal gate provides flexibility and offers enormous advantage to logic designers.
+
+To prove the above, it suffices to show that AND, OR, and NOT can be implemented using NAND gates only.
+
+For the formal definition of Boolean algebra, we shall employ the postulates formulated by E. V. Huntington in 1904.
+
+It is an algebraic system consisting of the set of elements (0, 1), two binary operators called OR, AND, and one unary operator NOT.
+
+Boolean algebra, like any other deductive mathematical system, may be defined with aset of elements, a set of operators, and a number of unproved axioms or postulates.
+
+A binary operator defined on a set S of elements is a rule that assigns to each pair ofelements from S a unique element from S._ Example: In a*b=c, we say that * is a binary operator if it specifies a rule for finding c from the pair (a,b)and also if a, b, c Î S. Axioms and laws of Boolean algebra Axioms or Postulates of Boolean algebra are a set of logical expressions that we accept without proof and upon which we can build a set of useful theorems.
+
+_ A set S is closed with respect to a binary operator if, for every pair of elements of S, the binary operator specifies a rule for obtaining a unique element of S. _ For example, the set of natural numbers N = {1, 2, 3, 4, … 9} is closed with respect to the binary operator plus (+) by the rule of arithmetic addition, since for any a, b Î N we obtain a unique c Î N by the operation a + b = c. DIGITAL LOGIC DESIGN Page no.
+
+Principle of Duality Each postulate consists of two expressions statement one expression is transformed into the other by interchanging the operations (+) and (⋅) as well as the identity elements 0 and 1.
+
+A Boolean function described by an algebraic expression consists of binary variables, the constants 0 and 1, and the logic operation symbols.
+
+F(vars) = expression Set of binary Variables Operators (+, •, ‘) Constants (0, 1) Groupings (parenthesis) Variables Consider an example for the Boolean function F1 = x + y’z DIGITAL LOGIC DESIGN Page no.
+
+Truth Table for F1 Gate Implementation of F1 = x + y’z Note: Q: Let a function F() depend on n variables.
+
+• However, the size of a truth table grows exponentially with the number ofvariables involved, hence unwieldy.
+
+• Otherwise, interchange 1s to 0s in the truth table column showing F. • The complement of a function IS NOT THE SAME as the dual of afunction.
+
+• Minterms and Maxterms • Sum-of-Minterms and Product-of- Maxterms • Product and Sum terms • Sum-of-Products (SOP) and Product-of-Sums (POS) Definitions Literal: A variable or its complement Product term: literals connected by • Sum term: literals connected by + Minterm: a product term in which all the variables appear exactly once, either complemented or uncomplemented.
+
+35 Maxterm: a sum term in which all the variables appear exactly once, either complemented or uncomplemented.
+
+• Denoted by mj, where j is the decimal equivalent of the minterm’s corresponding binary combination (bj).
+
+• A variable in mj is complemented if its value in bj is 0, otherwise is uncomplemented.
+
+Then, bj = 011 and its corresponding minterm is denoted by mj =A’BC Maxterm • Represents exactly one combination in the truth table.
+
+• Denoted by Mj, where j is the decimal equivalent of the maxterm’s corresponding binary combination (bj).
+
+• Observe that: mj =Mj’ a b c f1 0 0 0 0 0 0 1 1 0 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 1 0 1 1 1 1 0 DIGITAL LOGIC DESIGN Page no.
+
+Express the Boolean function F = A + B’C as a sum of minterms.
+
+But AB’C appears twice, and according to theorem (x + x = x), it is possible to remove one of those occurrences.
+
+Express the Boolean function F = xy + x’z as a product of maxterms.
+
+A convenient way to express this function is as follows: F(x, y, z) = πM(0, 2, 4, 5) The product symbol, π, denotes the ANDing of maxterms; the numbers are the indices of the maxterms of the function.
+
+Each of these combinations, , B,A ,AB(in the SOP form) is called a minterm.
+
+The minterm may be represented in terms of their decimal designations – m0 for , m1 for B,m2 for A and m3 for AB, assuming that A represents the MSB.
+
+And a 0 or no entry in any square indicates that the corresponding minterm does not appear in the expression for output.
+
+The necessary condition for adjacency of minterms is that their decimal designations must differ by a power of 2.
+
+A minterm can be combined with any number of minterms adjacent to it to form larger squares.
+
+Two minterms which are adjacent to each other can be combined to form a bigger square called a 2-square or a pair.
+
+In the above figure f1 read as , because, along the square , A remains constant as a 0, that is , as , where as B is changing from 0 to 1.
+
+EX: Reduce the minterm f= +A +AB using mapping Expressed in terms of minterms, the given expression is F=m0+m1+m2+ m3=m∑(0,1,3)& the figure shows the k-map for f and its reduction .
+
+It requires two gate inputs forrealization as f= +B (k-map in SOP form, and logic diagram.)
+
+42 The main criterion in the design of a digital circuit is that its cost should be as low as possible.
+
+The 1‘s on the k-map indicate the presence of minterms in the output expressions, where as the 0s indicate the absence of minterms .Since the absence of a minterm in the SOP expression means the presense of the corresponding maxterm in the POS expression of the same .when a SOP expression is plotted on the k-map, 0s or no entries on the k-map represent the maxterms.
+
+To obtain the minimal expression in the POS form, consider the 0s on the k-map and follow the procedure used for combining 1s.
+
+The uppercase letter M stands for maxterm and its subscript denotes the decimal designation of that maxterm obtained by treating the non-complemented variable as a 0 and the complemented variable as a 1 and putting them side by side for reading the decimal equivalent of the binary number so formed.
+
+Various maxterm combinations and the corresponding reduced expressions are shown in figure.
+
+K-map in POS form and logic diagram In this given expression ,the maxterm M2 is absent.
+
+A three-variable k-map has, therefore, 8(=23 ) squares or cells, and each square on the map represents a minterm or maxterm as shown in figure.
+
+The small number on the top right corner of each cell indicates the minterm or maxterm designation.
+
+The binary numbers along the top of the map indicate the condition of B and C for each column.
+
+For example, the binary number 01 on top of the second column in fig indicates that the variable B appears in complemented form and the variable C in noncomplemented form in all the minterms in that column.
+
+Look for the minterms (maxterms) adjacent to each other, in order to combine them into larger squares.
+
+Combining of adjacent squares in a k-map containing 1s (or 0s) for the purpose of simplification of a SOP (or POS)expression is called looping.
+
+Next consider the minterm (maxterm) with next to the least number of adjacencies and form as large a square as possible.
+
+A minterm (maxterm) can be part of any number of squares if it is helpful in reduction.
+
+Plot the k-map and place 1s(0s) corresponding to the minterms (maxterms) of the SOP (POS) expression.
+
+Some possible combinations of minterms and the corresponding minimal expressions readfrom the k-maps are shown in fig: Here f6 is read as 1, because along the 8-square no variable remains constant.
+
+F5 is read as , because, along the 4-square formed by0,m1,m2 and m3 , the variables B and C are changing, and A remains constant as a 0.
+
+In the 2-square formed by m0 and m1, C is changing from a 0 to a 1, whereas A and B remain constant as a 0.
+
+So it is read as .In the 2-square formed by m0 and m2 , B is changing from a 0 to a 1 whereas A and C remain constant as a 0.
+
+Therefore, the resultant SOP expression is + + Some possible maxterm groupings and the corresponding minimal POS expressions read from the k-map are DIGITAL LOGIC DESIGN Page no.
+
+47 In this figure, along the 4-square formed by M1, M3, M7, M5, A and B are changing from a 0 to a 1, where as C remains constant as a 1.
+
+Ex:Reduce the expression f=∑m(0,2,3,4,5,6) using mapping and implement it in AOI logic as well as in NAND logic.The Sop k-map and its reduction , and the implementation of the minimal expression using AOI logic and the corresponding NAND logic are shown in figures below In SOP k-map, the reduction is done as: 1. m5 has only one adjacency m4 , so combine m5 and m4 into a square.
+
+48 Four variable k-maps: Four variable k-map expressions can have 24=16 possible combinations of input variables such as , ,------------ABCD with minterm designations m0,m1 --------------------m15 respectively in SOP form & A+B+C+D, A+B+C+ ,---------- + + + with maxterms M0,M1,--------- - -M15 respectively in POS form.
+
+It has 24=16 squares or cells.The binary number designations of rows & columns are in the gray code.
+
+It has 25=32 squares or cells of the k-map are divided into 2 blocks of 16 squares each.The left block represents minterms from m0 to m15 in which A is a 0, and the right block represents minterms from m16 to m31 in which A is 1.The 5-variable k-map may contain 2-squares, 4-squares , 8-squares , 16-squares or 32-squares involving these two blocks.
+
+A PI which is neither an EPI nor a RPI is called a Selective Prime implicant (SPI).
+
+The RPI ‗BD‘ may be included without changing the function but the resulting expression would not be in minimal SOP(MSP) form.
+
+Essential and Redundant Prime Implicants DIGITAL LOGIC DESIGN Page no.
+
+53 F(A,B,C,D)=∑m(0,4,5,10,11,13,15) SPI are marked by dotted squares, shows MSP form of a function need not be unique.
+
+Essential and Selective Prime Implicants Here, the MSP form is obtained by including two EPI‘s & selecting a set of SPI‘s to cover remaining uncovered minterms 5,13,15.
+
+54 Essential False Prime implicants Consider Function F(A,B,C,D)= π M(0,1,2,6,8,10,11,12) Essential and Redundant False Prime Implicants Mapping when the function is not expressed in minterms (maxterms): An expression in k-map must be available as a sum (product) of minterms (maxterms).
+
+Instead, expansion into minterms (maxterms) can be accomplished in the process of entering the terms of the expression on the k-map.
+
+Limitations of Karnaugh maps: • Convenient as long as the number of variables does not exceed six.
+
+It is more systematic method of minimizing expressions of even larger number of variables.
+
+• Dominating Rows & Columns • Determination of Minimal expressions in complescases.
