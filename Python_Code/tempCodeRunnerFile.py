@@ -13,7 +13,7 @@ max_words_in_summary = 2000000
 
 # Calculate the maximum number of chunks needed
 max_num_chunks = (max_words_in_summary // max_tokens_per_chunk) + 1
-#print("\n chunks :"+str(max_num_chunks))
+print("\n chunks :"+str(max_num_chunks))
 
 maxlen=max_words_in_summary/max_num_chunks
 
@@ -22,15 +22,13 @@ chunks = [text[i:i + max_tokens_per_chunk] for i in range(0, len(text), max_toke
 
 # Generate summaries for each chunk
 summaries = []
-print(len(chunks))
 for i, chunk in enumerate(chunks):
     # Break the loop if the maximum number of chunks has been reached
     if i >= max_num_chunks:
         break
-    #print("\n actual:"+chunk+"\n")
     summary = summarizer(chunk, max_length=200, min_length=100, do_sample=False)
     summaries.append(summary[0]['summary_text'])
-    #print(summary[0]['summary_text'])
+    print(summary[0]['summary_text'])
 
 # Combine the summaries into a single summary
 combined_summary = " ".join(summaries)
