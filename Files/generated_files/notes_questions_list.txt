@@ -1,0 +1,19 @@
+What are the two types of digital circuits?
+What are the steps involved in designing a digital circuit?
+What are the types of adder circuits?
+How can a full-adder circuit be realized?
+What is the purpose of a half-subtractor circuit?
+How is a full-subtractor circuit implemented?
+What is an n-bit parallel adder?
+How does a look-ahead-carry adder improve addition speed?
+How is the carry-in propagated in a ripple carry adder?
+How is subtraction performed using a 2's complement?
+What is a BCD adder and what are its requirements?
+What is the purpose of a code converter?
+What is a decoder and how does it work?
+How does a 3-line to 8-line decoder function?
+What is the purpose of an encoder?
+How does an octal-to-binary encoder work?
+What is the function of a multiplexer or data selector?
+What is a demultiplexer and how does it distribute inputs?
+What is a magnitude comparator and what does it indicate?

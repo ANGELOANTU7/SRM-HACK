@@ -1,0 +1,40 @@
+Topics:
+- Combinational and Sequential Circuits
+- Digital Circuits
+- Adder Circuits
+- Full Adder Circuit
+- Half-Subtractor Circuit
+- n-Bit Parallel Adder
+- Ripple Carry Adder
+- Twos Complement
+- Look-Ahead-Carry Adder
+- Code Converter
+- Code Conversion Table
+- Gray Code
+- Decoder
+- Encoder
+- Octal-to-Binary Encoder
+- DeMultiplexer (DeMux)
+- Magnitude Comparison
+
+Important Topics:
+- Full Adder Circuit
+- Look-Ahead-Carry Adder
+- Code Converter
+- Decoder
+- Encoder
+- Magnitude Comparison
+
+Questions:
+- What are the two types of digital circuits?
+- What are the types of Adder Circuits?
+- What is the difference between a half-adder and a full-adder?
+- How is the subtraction A - B done?
+- How does the look-ahead-carry adder speed up the addition process?
+- What is a code converter?
+- What is the output of the 4-bit binary to Gray-style code converter?
+- What is a decoder?
+- What is the opposite of the decoding process called?
+- What is an encoder?
+- What is an octal-to-binary encoder?
+- What is a DeMultiplexer (DeMux)?

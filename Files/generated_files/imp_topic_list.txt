@@ -1,0 +1,17 @@
+- Full adder circuit
+- Carry propagation in adders
+- 2's complement subtraction
+- Gray code conversion
+- Decoder and encoder circuits
+- Magnitude comparison
+
+Questions:
+1. What are the two types of digital circuits?
+2. What is the difference between combinational and sequential circuits?
+3. What is a full adder circuit and how does it work?
+4. How is subtraction using 2's complement of B and addition to A achieved?
+5. What is a Gray code converter and what is its purpose?
+6. What is a decoder and how does it differ from an encoder?
+7. What is an octal-to-binary encoder and how does it work?
+8. What is a Demultiplexer and how is it different from a Multiplexer?
+9. What is the purpose of magnitude comparison in digital circuits?
