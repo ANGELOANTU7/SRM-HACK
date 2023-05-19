@@ -42,9 +42,9 @@ def cluster_questions(questions, num_clusters, syllabus_file):
  
     return y_kmeans
 
-questions = extract_questions_from_directory('texts')
+questions = extract_questions_from_directory('Files/pyqs_text')
 num_clusters = int(input("To how many clusters do you want to cluster the questions: "))
-syllabus_file = 'syllabus_txt/syllabus.txt'
+syllabus_file = 'Files/syllabus_txt/syllabus.txt'
 labels = cluster_questions(questions, num_clusters, syllabus_file)
 for i in range(num_clusters):
     cluster_questions = np.array(questions)[np.where(labels == i)[0]]
@@ -56,7 +56,7 @@ for i in range(num_clusters):
 
 
 # Save cluster questions to file
-with open('cluster_questions.txt', 'w') as f:
+with open('Files/generated_files/cluster_questions.txt', 'w') as f:
     for i in range(num_clusters):
         cluster_questions = np.array(questions)[np.where(labels == i)[0]]
         f.write(f"Module {i+1}:\n")
