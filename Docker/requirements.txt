@@ -1,1 +1,7 @@
-requests==2.25.1
+requests
+chardet
+numpy
+tensorflow
+tensorflow-hub
+scikit-learn
+boto3
