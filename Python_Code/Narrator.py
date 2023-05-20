@@ -120,6 +120,6 @@ while(True):
             with open('Files\generated_files\\narration.txt', 'w', encoding='utf-8') as file:
                 file.write(narrate)
             print(narrate)
-            with open('Files\generated_files\\narration.txt', 'w') as file:
+            with open('Files\generated_files\\response.txt', 'w') as file:
                 # Truncate the file to remove its contents
                 file.truncate()
