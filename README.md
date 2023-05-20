@@ -4,9 +4,17 @@ LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize tra
 
 ### Working Screenshots
 
-| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              |  <img src="pictures/leaderboarddemo.gif">                                      |
-| :----------------------------------: | :------------------------------------: | :----------------------------------------------------------------------------: |
-|          _Website_           |      _Handwritten to text_          |                                 _Web Application_                              |
+| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| :----------------------------------: | :------------------------------------: |
+|          _Website_           |      _Handwritten to text_          | 
+
+| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| :----------------------------------: | :------------------------------------: |
+|          _Website_           |      _Handwritten to text_          | 
+
+| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| :----------------------------------: | :------------------------------------: |
+|          _Website_           |      _Handwritten to text_          | 
 ## Key Features
 
 - Personalized AI tutor: LearnMateAI acts as a virtual tutor, leveraging artificial intelligence and machine learning algorithms to deliver tailored educational content based on the student's individual needs.
