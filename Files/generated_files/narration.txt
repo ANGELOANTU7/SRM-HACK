@@ -1,0 +1,11 @@
+Hello, I see you have been studying Digital Electronics and have taken notes on M. Morris Mano's book. I can see that you have learned about two types of digital circuits - Combinational Circuits and Sequential Circuits. The output of a combinational circuit depends only on the present input, while the output of a sequential circuit depends on past inputs. 
+
+To design a digital circuit, we follow a few steps - first, we state the problem and determine the number of input and output variables. We assign letter symbols to the input and output variables and define a truth table that shows the required relationship between inputs and outputs. Next, we obtain a simplified Boolean function for each output and finally, we draw a logic diagram.
+
+You have also learned about different types of adder and subtractor circuits. The most basic arithmetic operation is the addition of two binary digits and we use logic gates to perform this operation. The two types of adder circuits are half-adder and full-adder. The full-adder circuit adds three bits - two significant bits and a carry-in bit and outputs a sum bit and a carry-out bit.
+
+We can also use a subtractor circuit to subtract one bit from another, and the full-subtractor subtracts one bit when there is already a borrow in the previous column. You have also learned about n-bit parallel adders and how they can be used to add two binary numbers in parallel form.
+
+Next, we move on to discuss decoders, which are logic circuits that convert an N-bit-binary input code into M output lines. We also learned about encoders and demultiplexers. Finally, we learned about the Magnitude Comparator, which is a logic circuit that compares two quantities and gives an output signal indicating whether the two input quantities are equal or not. 
+
+I hope this has helped you to better understand Digital Electronics and if you have any questions, I'm here to answer them.
