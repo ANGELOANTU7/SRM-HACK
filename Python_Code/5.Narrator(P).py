@@ -124,3 +124,18 @@ while(True):
             with open('Files\generated_files\\response.txt', 'w') as file:
                 # Truncate the file to remove its contents
                 file.truncate()
+            os.rmdir("images")
+
+            image_name=extract_image_name(narrate)
+            image_list = image_name.splitlines()
+
+            # Create a directory to store the images
+            os.makedirs("images", exist_ok=True)
+            os.chdir("images")
+
+            # Process the paragraphs and search for related images
+            print(image_list)
+            process_paragraphs(image_list)
+
+            # Return to the parent directory
+            os.chdir("..")
