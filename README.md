@@ -2,7 +2,7 @@
 TRACK - AI/ML
 LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize traditional learning methods by providing a personalized and adaptive learning experience to students. It adapts to the student's learning pace and style, focuses on important topics, and offers instant feedback through regular testing.
 
-### Working Screenshots
+### Working Screenshots(may take time to load please wait)
 
 | <img src="gifs/1.gif">             | <img src="gifs/2.gif">              | 
 | :----------------------------------: | :------------------------------------: |
