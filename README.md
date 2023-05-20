@@ -6,13 +6,13 @@ LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize tra
 
 | <img src="gifs/1.gif">             | <img src="gifs/2.gif">              | 
 | :----------------------------------: | :------------------------------------: |
-|          _Website_           |      _Handwritten to text_          | 
+|          _Website(React+TailWind)_           |      _Lecture Handwritten/PDF to text (Goggle_vison_API)_          | 
 
-| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| <img src="gifs/3.gif">             | <img src="gifs/4.gif">              | 
 | :----------------------------------: | :------------------------------------: |
-|          _Website_           |      _Handwritten to text_          | 
+|          _Notes summarizer using Hugging Face pipeline_           |      _Question,Important topic gen using OpenAI_          | 
 
-| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| <img src="gifs/5.gif">             | <img src="gifs/6.gif">              | 
 | :----------------------------------: | :------------------------------------: |
 |          _Website_           |      _Handwritten to text_          | 
 ## Key Features
