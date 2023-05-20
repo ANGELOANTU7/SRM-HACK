@@ -1,7 +1,11 @@
 Questions:
-- What are the two types of digital circuits? 
-- What is a full adder circuit? 
-- How can the subtraction A - B be done? 
-- What is a code converter? 
-- What is a decoder? 
-- What is an encoder?
+1. What is the difference between combinational and sequential circuits?
+2. What are the two types of digital circuits?
+3. What are the two types of adder circuits?
+4. How can realization using AOI logic be achieved for a full adder circuit?
+5. What is the purpose of a half-subtractor circuit?
+6. How is subtraction of A - B performed using binary?
+7. What is the advantage of using a look-ahead-carry adder?
+8. What is the function of a code converter?
+9. What is a decoder and how does it work?
+10. What is the opposite of decoding, and what is an example of an encoder?

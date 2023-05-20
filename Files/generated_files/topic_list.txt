@@ -1,32 +1,36 @@
-Topics: 
-- Combinational circuits 
-- Sequential circuits 
-- Types of digital circuits 
-- Adder circuits 
-- Full adder circuit 
-- Half-subtractor circuit 
-- n-bit parallel adder 
-- Carry-out and carry-in 
-- 2's complement 
-- Look-ahead carry adder 
-- Code converters 
-- Code conversion table 
-- Gray code 
-- Decoders 
-- Encoders 
-- DeMultiplexer 
+Topics:
+- Combinational circuits
+- Sequential circuits
+- Digital circuits
+- Adder circuits
+- Full adder circuit
+- Half-subtractor circuit
+- Parallel adder circuit
+- Ripple carry adder
+- Look-ahead-carry adder
+- Code converter
+- Gray-style code converter
+- Decoder
+- Encoder
+- Octal-to-binary encoder
+- Demultiplexer
 
 Imp_Topics:
-- Full adder circuit 
-- Look-ahead carry adder 
-- Code converters 
-- Decoders 
-- Encoders 
+- Full adder circuit
+- Parallel adder circuit
+- Look-ahead-carry adder
+- Code converter
+- Decoder
+- Encoder
 
 Questions:
-- What are the two types of digital circuits? 
-- What is a full adder circuit? 
-- How can the subtraction A - B be done? 
-- What is a code converter? 
-- What is a decoder? 
-- What is an encoder
+1. What is the difference between combinational and sequential circuits?
+2. What are the two types of digital circuits?
+3. What are the two types of adder circuits?
+4. How can realization using AOI logic be achieved for a full adder circuit?
+5. What is the purpose of a half-subtractor circuit?
+6. How is subtraction of A - B performed using binary?
+7. What is the advantage of using a look-ahead-carry adder?
+8. What is the function of a code converter?
+9. What is a decoder and how does it work?
+10. What is the opposite of decoding, and what is an example of an encoder

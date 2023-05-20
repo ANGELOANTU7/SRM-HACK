@@ -1,6 +1,7 @@
 Imp_Topics:
-- Full adder circuit 
-- Look-ahead carry adder 
-- Code converters 
-- Decoders 
-- Encoders
+- Full adder circuit
+- Parallel adder circuit
+- Look-ahead-carry adder
+- Code converter
+- Decoder
+- Encoder
