@@ -4,7 +4,7 @@ LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize tra
 
 ### Working Screenshots
 
-| <img src="gifs/1.gif">             | <img src="gifs/1.gif">              | 
+| <img src="gifs/1.gif">             | <img src="gifs/2.gif">              | 
 | :----------------------------------: | :------------------------------------: |
 |          _Website_           |      _Handwritten to text_          | 
 
