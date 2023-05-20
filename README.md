@@ -6,7 +6,7 @@ LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize tra
 
 | <img src="gifs/1.gif">             | <img src="gifs/2.gif">              | 
 | :----------------------------------: | :------------------------------------: |
-|          _Website(React+TailWind)_           |      _Lecture Handwritten/PDF to text (Goggle_vison_API)_          | 
+|          _Website(React+TailWind)_           |      _Lecture Handwritten/PDF to text (Goggle_vision_API)_          | 
 
 | <img src="gifs/3.gif">             | <img src="gifs/4.gif">              | 
 | :----------------------------------: | :------------------------------------: |
@@ -14,7 +14,7 @@ LearnMateAI is an AI/ML-powered learning platform that aims to revolutionize tra
 
 | <img src="gifs/5.gif">             | <img src="gifs/6.gif">              | 
 | :----------------------------------: | :------------------------------------: |
-|          _Website_           |      _Handwritten to text_          | 
+|          _AI tutor chatting trained using Notes and PYQs_           |      _Study planner_          | 
 ## Key Features
 
 - Personalized AI tutor: LearnMateAI acts as a virtual tutor, leveraging artificial intelligence and machine learning algorithms to deliver tailored educational content based on the student's individual needs.
