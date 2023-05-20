@@ -1,7 +1,7 @@
 import openai
 import requests
 from bs4 import BeautifulSoup
-import os
+import os,shutil
 from urllib.parse import urlparse, urljoin
 
 
@@ -124,7 +124,8 @@ while(True):
             with open('Files\generated_files\\response.txt', 'w') as file:
                 # Truncate the file to remove its contents
                 file.truncate()
-            os.rmdir("images")
+            shutil.rmtree("images")
+
 
             image_name=extract_image_name(narrate)
             image_list = image_name.splitlines()

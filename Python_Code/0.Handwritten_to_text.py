@@ -30,7 +30,7 @@ for i in range(4):
     
     # Convert the PDF to images and save them in the output folder
     image_paths, noImg = pdf_to_images(pdf_path, output_folder)
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/chemmi/Desktop/SRM-HACK/handWritten_To_Text/newsrm/Client_file_vision.json'
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'Files\Client_file_vision.json'
     client = vision.ImageAnnotatorClient()
 
     # [START vision_python_migration_text_detection]
